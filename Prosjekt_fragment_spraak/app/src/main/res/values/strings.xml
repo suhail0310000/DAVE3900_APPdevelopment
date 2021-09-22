@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">fragment_spraak</string>
+    <string name="ok">Avslutt</string>
+    <string name="ikkeok">Avbryt</string>
+</resources>
