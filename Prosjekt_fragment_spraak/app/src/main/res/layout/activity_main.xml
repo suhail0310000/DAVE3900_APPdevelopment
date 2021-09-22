@@ -23,4 +23,11 @@
         android:text="Dialog"
         android:onClick="visDialog"/>
 
+    <Button
+        android:id="@+id/preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preferences"
+        android:onClick="visPreferences"/>
+
 </LinearLayout>

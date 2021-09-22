@@ -34,13 +34,13 @@ public class MyDialog extends DialogFragment {
                             {
                                 callback.onYesClick();
                             }
-                    }
+                        }
                 )
-                    .setNegativeButton(R.string.ikkeok, new DialogInterface.OnClickListener()
-                    { public void onClick(DialogInterface dialog,int whichButton) {
-                        callback.onNoClick();
-                    }
-                }
+                .setNegativeButton(R.string.ikkeok, new DialogInterface.OnClickListener()
+                        { public void onClick(DialogInterface dialog,int whichButton) {
+                            callback.onNoClick();
+                        }
+                        }
                 )
                 .create();
     }
