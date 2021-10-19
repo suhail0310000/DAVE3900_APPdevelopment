@@ -12,7 +12,7 @@ import android.view.View;
 public class MainActivity extends AppCompatActivity implements MyDialog.DialogClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState); 
         setContentView(R.layout.activity_main);
         SharedPreferences shared = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
         System.out.println(shared.getString("melding",","));

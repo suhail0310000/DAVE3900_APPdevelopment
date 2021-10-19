@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         settland("de");
         recreate();
     }
+    
     public void norsk(View v) {
         settland("norsk");
         recreate();

@@ -12,5 +12,4 @@ public class SetPreferencesActivity extends AppCompatActivity {
                 .replace(R.id.settings_container,new preferansefragment())
                 .commit();
     }
-
 }
